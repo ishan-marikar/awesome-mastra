@@ -1,0 +1,29 @@
+name: Remove or fix an entry
+description: Report a dead link, an archived project, or an outdated entry
+labels: [removal]
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Entry
+      description: The name of the entry as it appears in the list.
+    validations:
+      required: true
+  - type: dropdown
+    id: reason
+    attributes:
+      label: Reason
+      options:
+        - Dead link
+        - Repository archived or deleted
+        - No longer works with current Mastra
+        - Description is inaccurate
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+    validations:
+      required: true

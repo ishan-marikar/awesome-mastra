@@ -1,0 +1,44 @@
+name: Add an entry
+description: Suggest a resource for the list
+labels: [addition]
+body:
+  - type: input
+    id: link
+    attributes:
+      label: Link
+      description: The URL of the resource.
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+  - type: input
+    id: description
+    attributes:
+      label: Description
+      description: One sentence, starting with a capital letter and ending with a period.
+    validations:
+      required: true
+  - type: input
+    id: section
+    attributes:
+      label: Section
+      description: Which section of the list it belongs in.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it belongs here
+      description: What does this give a Mastra developer that the list does not already cover?
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: The project has a README explaining what it does and how to run it.
+          required: true
+        - label: The project works with a currently supported version of Mastra.
+          required: true
+        - label: I have read the contribution guidelines.
+          required: true

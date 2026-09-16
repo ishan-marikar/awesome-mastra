@@ -1,0 +1,14 @@
+{
+  "name": "awesome-mastra",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A curated list of awesome resources for Mastra, the TypeScript framework for AI-powered applications and agents.",
+  "repository": "ishan-marikar/awesome-mastra",
+  "license": "CC0-1.0",
+  "scripts": {
+    "test": "awesome-lint"
+  },
+  "devDependencies": {
+    "awesome-lint": "^1.0.0"
+  }
+}
