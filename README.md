@@ -27,6 +27,7 @@ Mastra gives you agents, workflows, memory, tools, evals, and observability as f
 - [Workshops and Courses](#workshops-and-courses)
 - [Coding Agents and Skills](#coding-agents-and-skills)
 - [Community Projects](#community-projects)
+- [Case Studies](#case-studies)
 - [Starters and Boilerplates](#starters-and-boilerplates)
 - [Articles and Videos](#articles-and-videos)
 - [Comparisons and Research](#comparisons-and-research)
@@ -392,6 +393,36 @@ Official templates from the Mastra team, each a standalone repository you can cl
 - [Reddit Analysis](https://github.com/zessu/reddit-sub-ai-analysis) - Workflows that fetch and analyze subreddits.
 - [Plus One](https://github.com/adamraziv/plus-one) - Self-hosted household finance agent with audited mutations.
 - [AI Buddies](https://github.com/mastra-ai/ai-buddies) - Demo project showing off individual Mastra features.
+- [Atlas](https://github.com/MingyiSecLab/Atlas) - Desktop agent for authorized security assessment with a sandboxed Kali environment.
+- [ExploitHunter](https://github.com/justsml/ExploitHunter.app) - Chat-based assistant for security research and penetration testing practice.
+- [Gordon](https://github.com/general-liquidity/gordon) - Agent harness aimed at financial markets.
+- [JARVIS AI OS](https://github.com/Vishwajeetsrk/JARVIS-AI-OS) - Agent marketplace, plugin SDK, and desktop shell in one project.
+- [BlinkAI](https://github.com/MohitGoyal09/BlinkAI) - Privacy-first desktop assistant with voice input and screen context.
+- [AgentForge](https://github.com/Agentic-Engineering-Agency/agentforge) - Self-hosted daemon that serves agents over HTTP, Discord, and Telegram.
+- [Aielia](https://github.com/3IVIS/buildaharness) - Chat assistant that runs an eleven-layer harness on every turn.
+- [Chekku](https://github.com/deserveto/chekku) - Agent studio with browser automation and OpenAI-compatible model support.
+- [agentproto](https://github.com/agentproto/ts) - Runtime that projects tools, skills, and agents into CLI, HTTP, MCP, and Mastra.
+- [WhatsApp Agent](https://github.com/haasonsaas/wa-agent-mastra) - Persistent-memory WhatsApp bot with circuit breaker and retry logic.
+- [AI Finance Agent](https://github.com/alexarevalo9/ai-finance-agent) - Financial profile analysis and personalized recommendations.
+- [Samson AI](https://github.com/zessu/samson-ai) - Fitness coach that sends daily recommendations over email and SMS.
+- [Doodle AI](https://github.com/Type-Think-AI/doodle-ai) - Photo-to-doodle studio with twelve pluggable agent skills.
+- [Kakunin Samples](https://github.com/kakunin-ai/kakunin-samples) - Runnable examples for agent identity and compliance.
+
+## Case Studies
+
+Production deployments documented by the Mastra team and its users.
+
+- [Showcase](https://mastra.ai/showcase) - Index of every published customer story.
+- [Salesforce](https://mastra.ai/customers/salesforce) - Agent harness behind Agentforce for 100,000 developers.
+- [Replit](https://mastra.ai/customers/replit) - Building and running thousands of agent sandboxes.
+- [MongoDB](https://mastra.ai/customers/mongodb) - Internal platform for CI log analysis and support triage.
+- [Sanity](https://mastra.ai/customers/sanity) - Content agent that reads and edits structured CMS data.
+- [WorkOS](https://mastra.ai/customers/workos) - Internal agents that enrich go-to-market prospect data.
+- [Factorial](https://mastra.ai/customers/factorial) - HR agent spanning 25 products with user-level permissions.
+- [Counsel Health](https://mastra.ai/customers/counsel-health) - Patient and physician agents for virtual care.
+- [StarSling](https://mastra.ai/customers/starsling) - DevOps agent that autofixes GitHub, Linear, and Sentry alerts.
+- [Docker](https://www.docker.com/blog/beyond-the-chatbot-event-driven-agents-in-action/) - Event-driven agents that analyze and respond to pull requests.
+- [Elastic](https://www.elastic.co/search-labs/blog/agentic-rag) - Agentic retrieval assistant for search and analytics workflows.
 
 ## Starters and Boilerplates
 
@@ -418,6 +449,8 @@ Official templates from the Mastra team, each a standalone repository you can cl
 - [AI Agent Framework Overview](https://mastra.ai/ai-agent-framework) - The case for a TypeScript-first agent stack.
 - [Multi-Agent Workflows with Couchbase](https://dev.to/couchbase/building-multi-agent-workflows-using-mastra-ai-and-couchbase-198n) - Community walkthrough of a multi-agent build.
 - [Top TypeScript AI Agent Frameworks](https://dev.to/ialijr/top-5-typescript-ai-agent-frameworks-you-should-know-in-2026-139c) - Where Mastra sits among its peers.
+- [Building Exhibit](https://dev.to/humphery7/building-exhibit-an-ai-powered-portfolio-agent-with-mastra-a2a-and-telex-5d15) - Portfolio agent built with A2A and Telex, written up end to end.
+- [Building StudySync AI](https://dev.to/paulscreate/building-studysync-ai-how-i-created-a-conversational-study-partner-with-mastra-and-telex-1m6n) - Conversational study partner, from idea to deployment.
 
 ## Comparisons and Research
 
@@ -428,11 +461,16 @@ Official templates from the Mastra team, each a standalone repository you can cl
 
 ## Community
 
-- [Discord](https://discord.gg/mastra-ai) - Official community server for questions and showcases.
+- [Discord](https://discord.gg/mastra-ai) - Official server for questions, help, and project showcases.
+- [Discord Guide](https://mastra.ai/docs/community/discord) - How the server is organized and where to ask what.
 - [X](https://x.com/mastra) - Release announcements and demos.
-- [GitHub Discussions](https://github.com/mastra-ai/mastra/discussions) - Longer-form questions and proposals.
+- [Newsletter](https://mastra.ai/newsletter) - Periodic updates, tutorials, and ecosystem news.
 - [GitHub Issues](https://github.com/mastra-ai/mastra/issues) - Bug reports and feature requests.
+- [Contributing to Mastra](https://github.com/mastra-ai/mastra/blob/main/CONTRIBUTING.md) - How to set up the monorepo and land a change.
+- [Triage](https://github.com/mastra-ai/mastra-triage) - How incoming issues get sorted.
 - [mastra Topic on GitHub](https://github.com/topics/mastra) - Every public repository tagged with the framework.
+- [Product Hunt](https://www.producthunt.com/products/mastra) - Launch thread and community feedback.
+- [Y Combinator Profile](https://www.ycombinator.com/companies/mastra) - Company background and hiring.
 
 ## Contributing
 
