@@ -139,7 +139,6 @@ Official templates from the Mastra team, each a standalone repository you can cl
 - [OpenUI](https://mastra.ai/integrations/agentic-ui/openui) - Generative UI rendered from agent output.
 - [UI Dojo](https://github.com/mastra-ai/ui-dojo) - Mastra paired with several UI frameworks, side by side.
 - [AGUI Dojo](https://github.com/mastra-ai/mastra-agui-dojo) - Reference implementations of the AG-UI protocol with Mastra.
-- [agentcn](https://github.com/shadcn-labs/agentcn) - Component registry for agent interfaces, in the shadcn style.
 - [Mastra Chat Kit](https://github.com/hamchowderr/mastra-chat-kit) - Chat frontend and agent server for the Mastra agent harness.
 
 ## Storage and Memory
@@ -366,10 +365,10 @@ Official templates from the Mastra team, each a standalone repository you can cl
 - [Mastra Coding Agent by Evil Martians](https://github.com/evilmartians/mastra-coding-agent) - Coding agent with E2B sandbox execution.
 - [Good Issue](https://github.com/mastra-ai/good-issue) - Agent skill for writing reproducible open-source issues.
 - [Shmastra](https://github.com/just-ai/shmastra) - Build agents and workflows from inside Mastra Studio.
+- [agentcn](https://github.com/shadcn-labs/agentcn) - Component registry that ships a skill for migrating Mastra agents to the file-based convention.
 
 ## Community Projects
 
-- [Patter](https://github.com/PatterAI/Patter) - Open-source voice AI SDK for giving agents a phone number.
 - [DataFoundry](https://github.com/datagallery-ai/dataagent) - Open-source AI workbench for governed data analysis.
 - [Coworker](https://github.com/Array-Ventures/coworker) - Agent with MCP UI, app builder, A2A, and a skills marketplace.
 - [AgentStack](https://github.com/ssdeanx/AgentStack) - Multi-agent framework on Mastra with 50-plus tools and A2A orchestration.
@@ -385,7 +384,6 @@ Official templates from the Mastra team, each a standalone repository you can cl
 - [GitHub Agent](https://github.com/dwarvesf/github-agent) - Pull request monitoring and reminders with Discord notifications.
 - [ReadMe Maker](https://github.com/Nika-HISK/ReadMe-maker) - Generates repository documentation by reading the code.
 - [DevTrace AI](https://github.com/JexanJoel/devtrace-ai) - Persistent debugging memory with hybrid retrieval.
-- [Romeo](https://github.com/verona-ai/Romeo) - Open-source customer support agent.
 - [SupportMesh](https://github.com/sholajegede/supportmesh) - Multi-tenant support operations platform.
 - [Recipe Agent SaaS](https://github.com/wasp-lang/recipe-agent-saas-with-mastra) - Full SaaS app built on Wasp and Mastra.
 - [A2A Mastra Demo](https://github.com/tubone24/a2a_mastra) - Multi-agent system over A2A with Amazon Bedrock.
@@ -396,7 +394,6 @@ Official templates from the Mastra team, each a standalone repository you can cl
 - [Atlas](https://github.com/MingyiSecLab/Atlas) - Desktop agent for authorized security assessment with a sandboxed Kali environment.
 - [ExploitHunter](https://github.com/justsml/ExploitHunter.app) - Chat-based assistant for security research and penetration testing practice.
 - [Gordon](https://github.com/general-liquidity/gordon) - Agent harness aimed at financial markets.
-- [JARVIS AI OS](https://github.com/Vishwajeetsrk/JARVIS-AI-OS) - Agent marketplace, plugin SDK, and desktop shell in one project.
 - [BlinkAI](https://github.com/MohitGoyal09/BlinkAI) - Privacy-first desktop assistant with voice input and screen context.
 - [AgentForge](https://github.com/Agentic-Engineering-Agency/agentforge) - Self-hosted daemon that serves agents over HTTP, Discord, and Telegram.
 - [Aielia](https://github.com/3IVIS/buildaharness) - Chat assistant that runs an eleven-layer harness on every turn.
@@ -406,7 +403,7 @@ Official templates from the Mastra team, each a standalone repository you can cl
 - [AI Finance Agent](https://github.com/alexarevalo9/ai-finance-agent) - Financial profile analysis and personalized recommendations.
 - [Samson AI](https://github.com/zessu/samson-ai) - Fitness coach that sends daily recommendations over email and SMS.
 - [Doodle AI](https://github.com/Type-Think-AI/doodle-ai) - Photo-to-doodle studio with twelve pluggable agent skills.
-- [Kakunin Samples](https://github.com/kakunin-ai/kakunin-samples) - Runnable examples for agent identity and compliance.
+- [Kakunin Samples](https://github.com/kakunin-ai/kakunin-samples) - Agent identity and compliance samples, including a Mastra integration.
 
 ## Case Studies
 
@@ -431,12 +428,10 @@ Production deployments documented by the Mastra team and its users.
 - [TanStack Start Example](https://github.com/ataschz/tanstack-start-mastra-example) - Travel assistant with agent networks and dynamic tool UI.
 - [Next.js Example](https://github.com/foxytanuki/mastra-nextjs-example) - Mastra and Next.js following the official docs.
 - [Next.js with Assistant UI](https://github.com/koji/mastra-app-template) - Template pairing Mastra with assistant-ui.
-- [Chakra](https://github.com/xmlking/chakra) - TanStack Start monorepo with Drizzle, Better Auth, and i18n.
 - [Agentic RAG](https://github.com/laoposkj/mastra-agentic-rag) - Local-first RAG pipeline with libSQL or pgvector.
 - [DocBank](https://github.com/KenjiPcx/DocBank) - Full-stack RAG-as-a-service template.
 - [Mem0 Backend](https://github.com/yashksaini-coder/mastra-mem0-backend) - Dockerized agent server with tools, memory, and workflows.
 - [S3 Vector RAG](https://github.com/tied-inc/mastra-s3-vector-rag) - RAG backed by Amazon S3 Vectors.
-- [Vibe Stack](https://github.com/CodeAlive-AI/vibe-stack) - Opinionated default stack for AI-native products.
 
 ## Articles and Videos
 
@@ -456,7 +451,7 @@ Production deployments documented by the Mastra team and its users.
 
 - [Mastra vs LangChain](https://github.com/sholajegede/mastra-vs-langchain) - The same pipeline built twice, with measurements.
 - [AI SDK Comparison](https://github.com/kometolabs/ai-sdk-comparison) - Identical examples across Vercel AI SDK, Mastra, LangChain.js, and Genkit.
-- [LLM Agent Research](https://github.com/Lin-Guanguo/llm-agent-research) - Source-level control-flow analysis across eight agent frameworks.
+- [LLM Agent Research](https://github.com/Lin-Guanguo/llm-agent-research) - Source-level control-flow analysis of Mastra alongside seven other frameworks.
 - [Memory and Storage Architecture](https://deepwiki.com/mastra-ai/mastra/7-memory-and-storage-architecture) - Generated deep dive into how memory is layered.
 
 ## Community
